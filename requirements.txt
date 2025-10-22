@@ -1,0 +1,8 @@
+llama-cpp-python>=0.1.0 # optional small LLMs if you want an offline model
+langchain>=0.0.280 # adjust if your environment has different versions
+pydantic>=1.10.7
+pytest>=7.0
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.0
+faiss-cpu; platform_system != 'Windows'
+openai
