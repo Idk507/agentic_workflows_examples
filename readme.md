@@ -1,9 +1,9 @@
 Overview
 ========
-This repo contains three concrete, runnable examples implementing the three items you asked for:
 
-- README (below)
-- requirements.txt (below)
+
+
+
 - src/react_agent.py # Minimal ReAct agent with tools: vector search (FAISS-like), safe python executor
 - src/sequential_chain_pydantic.py # SequentialChain example (outline->draft->polish) with Pydantic parser and unit tests
 - src/langchain_agent.py # LangChain-based agent, demonstrating function-calling & tools (provider-agnostic)
